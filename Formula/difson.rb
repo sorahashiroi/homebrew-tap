@@ -21,6 +21,6 @@ class Difson < Formula
   end
 
   test do
-    system "#{bin}/difson --version"
+    system "#{bin}/difson", "--version"
   end
 end
